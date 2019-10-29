@@ -1,0 +1,4 @@
+#Fri Oct 04 14:28:03 ICT 2019
+base.0=E\:\\Studies\\DoAnCoSo\\BaiTap1\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
