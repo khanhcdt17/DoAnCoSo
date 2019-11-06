@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+    </group>
+
+
+
+    <item android:title="Các câu hỏi trắc nghiệm">
+        <menu>
+            <item android:title="Questions on OOPs Concept And Features"
+                android:id="@+id/montoan"
+                android:icon="@drawable/cauhoi">
+                <de.blox.graphview.GraphView
+                    android:id="@+id/graph"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                </de.blox.graphview.GraphView>
+            </item>
+            <item android:title="Questions on Constructors and Destructors"
+                android:id="@+id/monvatly"
+                android:icon="@drawable/cauhoi"/>
+            <item android:title="Questions on Access Specifiers"
+                android:id="@+id/monhoa"
+                android:icon="@drawable/cauhoi"/>
+        </menu>
+    </item>
+</menu>
